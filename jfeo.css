@@ -1,8 +1,23 @@
-/* body {
+body {
     background:url(https://source.unsplash.com/IUttfjXcaA4);
     width: 100%;
-} */
+}
 
 html{
     height:100%
+}
+
+.card {
+   margin-top: 2.5%;
+   height:30%;
+   border: 2px solid black; 
+   /* display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap; */
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
