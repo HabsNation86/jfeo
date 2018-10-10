@@ -21,6 +21,16 @@ html{
     align-content: flex-start;
 }
 
-.navbar-brand {
-    float: right;
+
+.card-img-top {
+    max-height: 175px;
+}
+
+.card-body {
+    max-height: 200px;
+    margin-bottom: 5px;
+}
+
+.jumbotron.jumbotron-fluid {
+    height: 190px;
 }
