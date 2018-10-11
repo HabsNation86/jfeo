@@ -10,7 +10,7 @@ html{
 }
 
 .card {
-   margin-top: 2.5%;
+   margin-top: 7.5%;
    border: 2px solid black; 
 }
 
@@ -33,4 +33,22 @@ html{
 
 .jumbotron.jumbotron-fluid {
     height: 190px;
+}
+
+.navbar-text {
+    height: 40px;;
+}
+
+.makeshiftFooter {
+    /* background: #F56217;
+    color: white; */
+    text-align: center;
+    height: 40px;
+    color:white;
+    
+}
+
+.footerWriting {
+    display: inline-block;
+    
 }
