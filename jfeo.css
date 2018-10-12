@@ -11,7 +11,8 @@ html{
 
 .card {
    margin-top: 7.5%;
-   border: 2px solid black; 
+   border: 2px solid lightgrey; 
+   shape-margin: 5%;
 }
 
 .options {
@@ -59,3 +60,4 @@ html{
     outline-color:white;
     float: left;
 }
+
