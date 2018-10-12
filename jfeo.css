@@ -24,12 +24,15 @@ html{
 
 
 .card-img-top {
-    max-height: 175px;
+    width: 100%;
+    height: 45vw;
+    object-fit: cover;
 }
 
 .card-body {
     max-height: 200px;
-    margin-bottom: 5px; 
+    border: 2px solid lightgrey;
+
 }
 
 .jumbotron.jumbotron-fluid {
@@ -49,6 +52,7 @@ html{
 
 .footerWriting {
     display: inline-block;
+    border: 1px solid white;
     
 }
 
@@ -60,4 +64,11 @@ html{
     outline-color:white;
     float: left;
 }
+
+marquee {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 250%; 
+   color: aliceblue
+}
+
 
