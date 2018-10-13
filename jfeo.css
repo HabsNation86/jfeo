@@ -25,15 +25,25 @@ html{
 
 .card-img-top {
     width: 100%;
-    height: 45vw;
+    height: 30vw;
     object-fit: cover;
 }
 
 .card-body {
-    max-height: 200px;
+    height: 15vw;
     border: 2px solid lightgrey;
-
+    shape-margin: 5%;
+    background: whitesmoke;
 }
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
 
 .jumbotron.jumbotron-fluid {
     height: 190px;
@@ -45,14 +55,13 @@ html{
 
 .makeshiftFooter {
     text-align: center;
-    height: 40px;
+    /* height: 40px; */
     color:white;
     
 }
 
 .footerWriting {
     display: inline-block;
-    border: 1px solid white;
     
 }
 
