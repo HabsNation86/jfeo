@@ -1,8 +1,9 @@
 body {
-    background: #0B486B;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin: 2.5%;
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
 }
 
 html{
@@ -68,10 +69,8 @@ html{
 .display-4 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color: #F56217;
-    outline-offset: 5%;
-    outline-color:white;
-    float: left;
+    color: white;
+    
 }
 
 marquee {
