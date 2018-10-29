@@ -12,6 +12,13 @@ $(".card-body3").on("click", function(){
     alert("Seulement disponible en mai 2019");
 });
 
+//  click on dmsa logo and get re-directed
+
 $(".dmsa").on("click",function(){
     window.location = "http://www.dmsa.ca/fr/index.html";
 });
+
+
+// Weather Widget
+
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');

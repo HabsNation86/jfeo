@@ -1,0 +1,19 @@
+{
+  "name": "jfeo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jfeo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HabsNation86/jfeo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HabsNation86/jfeo/issues"
+  },
+  "homepage": "https://github.com/HabsNation86/jfeo#readme"
+}
