@@ -1,6 +1,7 @@
 body {
-    background: linear-gradient(black, white);           
-
+    /* background: linear-gradient(black, white);            */
+    background: black;
+    font-family: 'Times New Roman', Times, serif
 }
 
 html{
@@ -55,12 +56,10 @@ html{
 .makeshiftFooter {
     text-align: center;
     background: whitesmoke;
-    color:black;   
+    color:black; 
+    border-radius:   
 }
 
-h6 {
-    font: bl
-}
 
 .footerWriting {
     display: inline-block;
@@ -69,8 +68,10 @@ h6 {
 
 .display-4 {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
     text-align: center;
     color: white;
+   
 }
     
 
@@ -78,6 +79,9 @@ h6 {
     border-radius: 10px;
 }
 
-.bg-dark {
-    background: url(texturedepots.png);
+.navbar {
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
