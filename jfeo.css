@@ -10,7 +10,7 @@ html{
 
 .card {
    margin-top: 7.5%;
-   border: 2px solid lightgrey; 
+   border: 2px solid lightgrey;
    shape-margin: 5%;
 }
 
@@ -56,14 +56,14 @@ html{
 .makeshiftFooter {
     text-align: center;
     background: whitesmoke;
-    color:black; 
-    border-radius:   
+    color:black;
+    border-radius:
 }
 
 
 .footerWriting {
     display: inline-block;
-    
+
 }
 
 .display-4 {
@@ -71,9 +71,9 @@ html{
     font-size: 2rem;
     text-align: center;
     color: white;
-   
+
 }
-    
+
 
 .weatherwidget-io {
     border-radius: 10px;
@@ -84,4 +84,8 @@ html{
     background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+h1 {
+    text-shadow: 4px 4px black;
 }
