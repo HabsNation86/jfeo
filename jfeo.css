@@ -1,6 +1,6 @@
 body {
     /* background: linear-gradient(black, white);            */
-    background: black;
+    background:whitesmoke;
     font-family: 'Times New Roman', Times, serif
 }
 
@@ -33,7 +33,7 @@ html{
     border: 2px solid rgb(29, 21, 21);
     shape-margin: 5%;
     background: whitesmoke;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .card-title {
@@ -57,7 +57,7 @@ html{
     text-align: center;
     background: whitesmoke;
     color:black;
-    border-radius:
+    border-radius: 5px;
 }
 
 
@@ -75,14 +75,11 @@ html{
 }
 
 
-.weatherwidget-io {
-    border-radius: 10px;
-}
-
 .navbar {
     background: #8E0E00;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
