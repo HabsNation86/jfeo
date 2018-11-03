@@ -1,5 +1,4 @@
 body {
-    /* background: linear-gradient(black, white);            */
     background:whitesmoke;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -9,7 +8,7 @@ html{
 }
 
 .card {
-   border: 2px solid whitesmoke;
+   border: 1px solid whitesmoke;
    shape-margin: 5%;
 }
 
@@ -27,21 +26,24 @@ html{
     object-fit: cover;
 }
 
-.card-body {
+/* .card-body {
     height: 15vw;
     border: 2px solid rgb(29, 21, 21);
     shape-margin: 5%;
-    /* background: whitesmoke; */
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 5px;
-
-}
+} */
 
 .card-title {
     text-align: center;
+    background: whitesmoke;
 }
 
 .card-text {
     text-align: center;
+    background: whitesmoke;
 }
 
 
@@ -52,16 +54,6 @@ html{
 .navbar-text {
     height: 40px;;
 }
-
-.makeshiftFooter {
-    text-align: center;
-    background: whitesmoke;
-    color:black;
-    border-radius: 5px;
-}
-
-
-
 
 .display-4 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -81,10 +73,6 @@ h1 {
     text-shadow: 4px 4px black;
 }
 
-.navbar2 {
-    background: pink;
-}
-
 .footer {
     position: relative;
     font-size: 1rem;
@@ -94,6 +82,22 @@ h1 {
     background: #8E0E00;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: white;
+    color: whitesmoke;
     text-align: center;
+}
+
+.card-body1 {
+    background: whitesmoke;
+}
+
+.card-body2 {
+    background: whitesmoke;
+}
+
+.card-body3 {
+    background: whitesmoke;
+}
+
+.card-body4 {
+    background: whitesmoke;
 }
