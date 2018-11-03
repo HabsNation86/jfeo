@@ -1,7 +1,7 @@
 body {
     /* background: linear-gradient(black, white);            */
     background:whitesmoke;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 html{
@@ -10,7 +10,7 @@ html{
 
 .card {
    margin-top: 7.5%;
-   border: 2px solid lightgrey;
+   border: 2px solid whitesmoke;
    shape-margin: 5%;
 }
 
@@ -34,6 +34,7 @@ html{
     shape-margin: 5%;
     background: whitesmoke;
     border-radius: 5px;
+    box-shadow: 8px 8px black;
 }
 
 .card-title {
@@ -61,17 +62,13 @@ html{
 }
 
 
-.footerWriting {
-    display: inline-block;
 
-}
 
 .display-4 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     text-align: center;
     color: white;
-
 }
 
 
@@ -79,10 +76,12 @@ html{
     background: #8E0E00;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 
 h1 {
     text-shadow: 4px 4px black;
+}
+
+h6 {
+    text-align: left;
 }

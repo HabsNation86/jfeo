@@ -12,6 +12,10 @@ $(".card-body3").on("click", function(){
     alert("Disponible avril/mai 2019");
 });
 
+$(".card-body4").on("click", function(){
+    window.location = "https://www.meteomedia.com/ca/meteo/quebec/deux-montagnes";
+})
+
 //  click on dmsa logo and get re-directed
 
 $(".dmsa").on("click",function(){
