@@ -31,9 +31,9 @@ html{
     height: 15vw;
     border: 2px solid rgb(29, 21, 21);
     shape-margin: 5%;
-    background: whitesmoke;
+    /* background: whitesmoke; */
     border-radius: 5px;
-    box-shadow: 8px 8px black;
+
 }
 
 .card-title {
@@ -67,7 +67,7 @@ html{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     text-align: center;
-    color: white;
+    color: whitesmoke;
 }
 
 
