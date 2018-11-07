@@ -1,5 +1,5 @@
 body {
-    background:white,
+    background:white;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -92,9 +92,9 @@ html{
     background: white;
 }
 
-.container {
+/* .container {
     height: 20%;
-}
+} */
 
 
 
