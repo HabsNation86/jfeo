@@ -1,5 +1,5 @@
 body {
-    background:whitesmoke;
+    background:white,
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -8,7 +8,7 @@ html{
 }
 
 .card {
-   border: 1px solid whitesmoke;
+   border: 1px solid white;
    shape-margin: 5%;
 }
 
@@ -28,12 +28,12 @@ html{
 
 .card-title {
     text-align: center;
-    background: whitesmoke;
+    background: white;
 }
 
 .card-text {
     text-align: center;
-    background: whitesmoke;
+    background: white;
 }
 
 
@@ -49,7 +49,7 @@ html{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     text-align: center;
-    color: whitesmoke;
+    color: white;
 }
 
 
@@ -57,6 +57,9 @@ html{
     background: #8E0E00;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+
 }
 
 
@@ -69,24 +72,28 @@ html{
     background: #8E0E00;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: whitesmoke;
+    color: white;
     text-align: center;
 }
 
 .card-body1 {
-    background: whitesmoke;
+    background: white;
 }
 
 .card-body2 {
-    background: whitesmoke;
+    background: white;
 }
 
 .card-body3 {
-    background: whitesmoke;
+    background: white;
 }
 
 .card-body4 {
-    background: whitesmoke;
+    background: white;
+}
+
+.container {
+    height: 20%;
 }
 
 
