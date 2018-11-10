@@ -92,9 +92,25 @@ html{
     background: white;
 }
 
-/* .container {
-    height: 20%;
-} */
+#card-title1 {
+    text-align: center;
+}
+
+#card-title2 {
+    text-align: center;
+}
+
+#card-title3 {
+    text-align: center;
+}
+
+#card-title4 {
+    text-align: center;
+}
+
+#card-text4 {
+    text-align: center;
+}
 
 
 
