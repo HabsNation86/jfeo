@@ -112,8 +112,16 @@ html{
     text-align: center;
 }
 
-#btn {
+#btn1 {
     background: royalblue;
+    position: relative;
+    color: white
+}
+
+#btn2 {
+    background: red;
+    position: relative;
+    color: white;
 }
 
 
