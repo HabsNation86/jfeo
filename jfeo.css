@@ -1,6 +1,6 @@
 body {
     background:white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 html{
@@ -46,7 +46,7 @@ html{
 }
 
 .display-4 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;;
     font-size: 2rem;
     text-align: center;
     color: white;
@@ -122,6 +122,10 @@ html{
     background: red;
     position: relative;
     color: white;
+
 }
 
-
+#headline {
+    text-align: center;
+    font-size: 2rem;
+}

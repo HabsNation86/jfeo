@@ -53,6 +53,10 @@ $('#btn1').on("click", function () {
     $('.display-4').html('Ligue Mark 2019')
 });
 
+$('#btn1').on("click", function () {
+    $('#headline').html("Vérifiez ici pour l'enregistrement 2019!!!")
+});
+
 
 // Converting French to English
 
@@ -83,4 +87,8 @@ $('#btn2').on("click", function () {
 
 $('#btn2').on("click", function () {
     $('.display-4').html("Mark's League 2019")
+});
+
+('#btn2').on("click", function () {
+    $('#headline').html("Check here for 2019 registration info!")
 });
