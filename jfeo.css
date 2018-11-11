@@ -112,20 +112,30 @@ html{
     text-align: center;
 }
 
+#wrap {
+    width:150px;
+    text-align: center;
+}
+
 #btn1 {
+    width: 73px;
     background: royalblue;
-    position: relative;
-    color: white
+    color: white;
+    float: left;
 }
 
 #btn2 {
+    width: 73px;
     background: red;
-    position: relative;
     color: white;
-
+    float: right;
 }
 
 #headline {
     text-align: center;
     font-size: 2rem;
+}
+
+hr {
+    height: 2.5%;
 }

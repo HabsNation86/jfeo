@@ -26,69 +26,25 @@ $(".dmsa").on("click",function(){
 // converting english to french on button click
 
 $('#btn1').on("click", function () {
-    $('#card-title1').html('Classements')
-});
-
-$('#btn1').on("click", function () {
-    $('#card-title2').html('Résultats')
-});
-
-$('#btn1').on("click", function () {
-    $('#card-title3').html('Horaires')
-});
-
-$('#btn1').on("click", function () {
-    $('#card-title4').html('Météo')
-});
-
-$('#btn1').on("click", function () {
-    $('#card-text4').html('7 jours')
-});
-
-$('#btn1').on("click", function () {
-    $('#headerId').html('Ligue Mark')
-});
-
-$('#btn1').on("click", function () {
-    $('.display-4').html('Ligue Mark 2019')
-});
-
-$('#btn1').on("click", function () {
+    $('#card-title1').html('Classements'),
+    $('#card-title2').html('Résultats'),
+    $('#card-title3').html('Horaires'),
+    $('#card-title4').html('Météo'),
+    $('#card-text4').html('7 jours'),
+    $('#headerId').html('Ligue Mark'),
+    $('.display-4').html('Ligue Mark 2019'),
     $('#headline').html("Vérifiez ici pour l'enregistrement 2019!!!")
 });
-
-
 // Converting French to English
 
 
 $('#btn2').on("click", function () {
-    $('#card-title1').html('Standings')
-});
-
-$('#btn2').on("click", function () {
-    $('#card-title2').html('Results')
-});
-
-$('#btn2').on("click", function () {
-    $('#card-title3').html('Schedules')
-});
-
-$('#btn2').on("click", function () {
-    $('#card-title4').html('Weather')
-});
-
-$('#btn2').on("click", function () {
-    $('#card-text4').html('7 days')
-});
-
-$('#btn2').on("click", function () {
-    $('#headerId').html("Mark's League")
-});
-
-$('#btn2').on("click", function () {
-    $('.display-4').html("Mark's League 2019")
-});
-
-$('#btn2').on("click", function () {
-    $('#headline').html("Check here for 2019 registration info!")
+    $('#card-title1').html('Standings'),
+    $('#card-title2').html('Results'),
+    $('#card-title3').html('Schedules'),
+    $('#card-title4').html('Weather'),
+    $('#card-text4').html('7 days'),
+    $('#headerId').html("Mark's League"),
+    $('.display-4').html("Mark's League 2019"),
+    $('#headline').html("Check here for 2019 registration info!!!")
 });
