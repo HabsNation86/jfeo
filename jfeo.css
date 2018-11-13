@@ -118,17 +118,17 @@ html{
 }
 
 #btn1 {
-    width: 73px;
+
     background: royalblue;
     color: white;
-    float: left;
+
 }
 
 #btn2 {
-    width: 73px;
+
     background: red;
     color: white;
-    float: right;
+
 }
 
 #headline {
@@ -138,4 +138,9 @@ html{
 
 hr {
     height: 2.5%;
+}
+
+.btn-group {
+    position: relative;
+    left: 54%;
 }
