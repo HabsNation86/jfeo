@@ -1,5 +1,5 @@
 body {
-    background:white;
+    background-image: url("infield.jpg");
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -47,16 +47,15 @@ html{
 
 .display-4 {
     font-family: 'Roboto Condensed', sans-serif;;
-    font-size: 2rem;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px red, 0 0 .5em blue, 0 0 0.1em blue;
     text-align: center;
     color: white;
 }
 
 
 .navbar {
-    background: #8E0E00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("softballfield.jpg");
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 
@@ -64,14 +63,9 @@ html{
 
 
 .footer {
-    position: relative;
-    font-size: 1rem;
-    left: 0;
-    bottom: 0;
+    border-top: 100px;
     width: 100%;
-    background: #8E0E00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url("softballfield.jpg");
     color: white;
     text-align: center;
 }
@@ -125,7 +119,7 @@ html{
 }
 
 #btn2 {
-
+    height: 40px;
     background: red;
     color: white;
 
@@ -141,6 +135,6 @@ hr {
 }
 
 .btn-group {
-    position: relative;
+    position: sticky;
     left: 54%;
 }

@@ -48,3 +48,5 @@ $('#btn2').on("click", function () {
     $('.display-4').html("Mark's League 2019"),
     $('#headline').html("Check here for 2019 registration info!!!")
 });
+
+
