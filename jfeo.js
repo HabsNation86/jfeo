@@ -28,24 +28,24 @@ $(".dmsa").on("click",function(){
 $('#btn1').on("click", function () {
     $('#card-title1').html('Résultats'),
     $('#card-title2').html('Classements'),
-    $('#card-title3').html('Horaires'),
+    $('#card-title3').html('Horaires 2019'),
     $('#card-title4').html('Météo'),
     $('#card-text4').html('7 jours'),
     $('#headerId').html('Ligue Mark'),
-    $('.display-4').html('Ligue Mark 2019'),
+    $('.display-4').html('Ligue Mark'),
     $('#headline').html("Vérifiez ici pour l'enregistrement 2019!!!")
 });
 // Converting French to English
 
 
 $('#btn2').on("click", function () {
-    $('#card-title1').html('Standings'),
-    $('#card-title2').html('Scores'),
+    $('#card-title1').html('Scores'),
+    $('#card-title2').html('Standings'),
     $('#card-title3').html('Schedules'),
     $('#card-title4').html('7-day Weather Forecast'),
     $('#card-text4').html('7 days'),
     $('#headerId').html("Mark's League"),
-    $('.display-4').html("Mark's League 2019"),
+    $('.display-4').html("Mark's League"),
     $('#headline').html("Check here for 2019 registration info!!!")
 });
 
